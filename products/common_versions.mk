@@ -25,7 +25,7 @@ ifdef CM_BUILDTYPE
         CM_EXTRAVERSION := -$(CYANOGEN_EXTRAVERSION)
     endif
 else
-    # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
+    # If CM_BUILDTYPE is not defined, set to generic
     CM_BUILDTYPE := SuperiorIrkenOrgans
     CM_EXTRAVERSION :=
 endif
