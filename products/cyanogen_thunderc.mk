@@ -11,7 +11,7 @@ $(call inherit-product, device/lge/thunderc_$(SUB_MODEL)/thunderc_$(SUB_MODEL).m
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
-BUILD_ID := GINGERBREAD_$(SUB_MODEL)
+BUILD_DISPLAY_ID := GINGERBREAD_$(SUB_MODEL)
 
 PRODUCT_BRAND := $(CARRIER)
 PRODUCT_DEVICE := thunderc_$(SUB_MODEL)
