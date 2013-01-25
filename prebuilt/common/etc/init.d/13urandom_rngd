@@ -36,6 +36,7 @@ if [ -e /proc/sys/vm ]; then
 			echo "No rngd-tool binary, skipping entropy generator!"
 			exit 1
 		fi
+	fi
 else
 	echo "Unable to apply kernel changes!"
 	exit 1
